@@ -4,4 +4,9 @@
 
 Time taken - 3 days
 
+URLs -
 
+- /
+- /coupons
+- /fanzone
+- /scorecard
