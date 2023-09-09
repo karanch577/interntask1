@@ -20,6 +20,13 @@ function PredictionHistoryCard(props) {
                 {team1WonChange}%
               </p>
             </div>
+
+            {/* winner icon start */}
+            {team1WonChange > 50 && 
+            <div className='absolute -top-5'>
+              <img src="./winnerIcon.svg" alt="winnerIcon" />
+            </div>}
+            {/* winner icon end */}
           </div>
           {/* team 1 end */}
 
@@ -35,6 +42,13 @@ function PredictionHistoryCard(props) {
                 {team2WonChange}%
               </p>
             </div>
+
+             {/* winner icon start */}
+            {team2WonChange > 50 &&  
+            <div className='absolute -top-5 right-0'>
+              <img src="./winnerIcon.svg" alt="winnerIcon" />
+            </div>}
+            {/* winner icon end */}
           </div>
           {/* team 2 end */}
         </div>
